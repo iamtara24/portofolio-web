@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portofolio-web/static/css/main.8f43d2d1.css",
+    "main.js": "/portofolio-web/static/js/main.fc2eb87d.js",
+    "static/media/bg-hero.png": "/portofolio-web/static/media/bg-hero.5b636f5a4a9aaa913424.png",
+    "static/media/bg-about.png": "/portofolio-web/static/media/bg-about.cccabc2fc3848623657e.png",
+    "static/media/proyek1.png": "/portofolio-web/static/media/proyek1.991784171b80b7b9324f.png",
+    "static/media/proyek3.png": "/portofolio-web/static/media/proyek3.1fcb0865edcb0cdaa7dc.png",
+    "static/media/proyek2.png": "/portofolio-web/static/media/proyek2.7e66a64026eba50e4553.png",
+    "static/media/proyek4.png": "/portofolio-web/static/media/proyek4.1e97e74c71d5fd307c3a.png",
+    "static/media/bg-contact.png": "/portofolio-web/static/media/bg-contact.997fec243a9ed6ff35f8.png",
+    "static/media/bg-skill.png": "/portofolio-web/static/media/bg-skill.442bb198524070c8a129.png",
+    "static/media/bg-proyek-kiri.png": "/portofolio-web/static/media/bg-proyek-kiri.3fcb6f3c7307b3005609.png",
+    "index.html": "/portofolio-web/index.html",
+    "static/media/work.svg": "/portofolio-web/static/media/work.161093d387dd78b8ea6cc162cd6aac81.svg",
+    "main.8f43d2d1.css.map": "/portofolio-web/static/css/main.8f43d2d1.css.map",
+    "main.fc2eb87d.js.map": "/portofolio-web/static/js/main.fc2eb87d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f43d2d1.css",
+    "static/js/main.fc2eb87d.js"
+  ]
+}
