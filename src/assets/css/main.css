@@ -246,6 +246,38 @@ a:hover:after, a.nav-link.active:after {
 }
 
 /*--------------------------------------------------------------
+# Project
+--------------------------------------------------------------*/
+.project-desc {
+    background: #52d3d8;
+    text-align: center;
+    position: absolute;
+    width: 96%;
+    height: 50px;
+    bottom: -15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+    visibility: hidden;
+    transition: all 300ms ease-in;
+    /* tambahkan transisi di sini */
+}
+
+.project-gallery:hover .project-desc {
+    visibility: visible;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .project-desc {
+        padding: .5rem;
+        bottom: 0!important;
+        visibility: visible!important;
+    }
+}
+
+/*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .form-custom::placeholder {
