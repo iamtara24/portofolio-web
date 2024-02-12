@@ -1,8 +1,12 @@
 import React from 'react';
 import { Container, Row, Button } from 'react-bootstrap';
-import ProyekLima from '../assets/img/proyek5.png';
+// import ImgsViewer from "react-images-viewer";
+
+// import ProyekSatu from '../assets/img/proyek1.png';
 import ProyekDua from '../assets/img/proyek2.png';
 import ProyekTiga from '../assets/img/proyek3.png';
+// import ProyekEmpat from '../assets/img/proyek4.png';
+import ProyekLima from '../assets/img/proyek5.png';
 import ProyekEnam from '../assets/img/proyek6.png';
 
 import bgKanan from '../assets/img/bg-proyek-kanan.png';
@@ -17,6 +21,19 @@ const ProjectComp = () => {
         downloadLink.click();
         document.body.removeChild(downloadLink);
     };
+
+    // const IMG_SET = [
+    //     {
+    //         src: {ProyekSatu},
+    //         caption: "Copyright © 2024. PT",
+    //         srcSet: [
+    //         {ProyekSatu},
+    //         {ProyekDua},
+    //         {ProyekTiga},
+    //         {ProyekEmpat},
+    //         ],
+    //     },
+    // ];
   return (
     <div id='project' className="position-relative pt-5 mb-5">
         <img src={bgKanan} alt="" className='position-absolute end-0 z-1 d-none d-lg-block' />
@@ -47,6 +64,14 @@ const ProjectComp = () => {
                 </div>
                 <div className='col-12 col-lg project-gallery' data-aos="flip-left" data-aos-delay="200">
                     <img src={ProyekEnam} alt="" className='w-100' />
+                    {/* <ImgsViewer
+                        imgs={IMG_SET}
+                        currImg={this.state.currImg}
+                        isOpen={this.state.viewerIsOpen}
+                        onClickPrev={this.gotoPrevious}
+                        onClickNext={this.gotoNext}
+                        onClose={this.closeViewer}
+                    /> */}
                     <div className="project-desc">
                         <small style={{fontSize: '11px'}}>Employee App Hasil Kolaborasi dengan PCS Group Indonesia <br />
                         Copyright © 2024. PT Pasifik Cipta Solusi</small>

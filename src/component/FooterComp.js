@@ -13,7 +13,7 @@ const FooterComp = () => {
                 <div className="col-lg col-6 text-white order-2 order-lg-last">
                     <div className="d-flex gap-3 justify-content-end align-items-center">
                         <a href="http://www.linkedin.com/in/anggin-megantara-2a4231134" target='_blank' rel='noreferrer' className='h4 mb-0'><i class="fab fa-linkedin"></i></a>
-                        <a href="http://" className='h4 mb-0'><i class="fab fa-youtube"></i></a>
+                        <a href="https://youtube.com/playlist?list=PLr8w2gB_kwHWZV3QvLLSM5QBVbwJKEA-A&si=r7oO495Uat8Q_dkF" target='_blank' rel='noreferrer' className='h4 mb-0'><i class="fab fa-youtube"></i></a>
                         <a href="https://www.instagram.com/iamtara54/" target='_blank' rel='noreferrer' className='h4 mb-0'><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>

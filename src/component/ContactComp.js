@@ -1,8 +1,17 @@
 import React from 'react';
 import { Container, Row, Form, Button} from 'react-bootstrap';
 import bgContact from '../assets/img/bg-contact.png';
+import Swal from 'sweetalert2';
 
 const ContactComp = () => {
+    const showWarningAlert = () => {
+        Swal.fire({
+            icon: 'warning',
+            title: 'Oops...',
+            html: 'Mohon maaf, fitur ini belum dapat digunakan. <br/> Silakan tunggu di update patch yang selanjutnya!',
+            confirmButtonText: 'Tutup'
+        });
+    };
   return (
     <div className="position-relative pt-5 pb-5">
         <img src={bgContact} alt="" className='position-absolute bottom-0 w-100 h-100 z-1' />
@@ -13,7 +22,7 @@ const ContactComp = () => {
                     <h1 className='text-custom fw-bold'>Kepada Saya</h1>
                 </div>
                 <div className="col-md-6">
-                    <Form>
+                    <Form onSubmit={(e) => { e.preventDefault(); showWarningAlert(); }}>
                         <Form.Group className="mb-3" controlId="formName">
                             <Form.Control type="text" placeholder="Nama" className='form-custom' />
                         </Form.Group>
