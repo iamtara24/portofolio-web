@@ -6,8 +6,8 @@ import AboutBgLeft from "../assets/img/bg-kiri-about.png";
 const AboutComp = () => {
     const handleDownload = () => {
         const downloadLink = document.createElement('a');
-        downloadLink.href = process.env.PUBLIC_URL + '/download/CV_Anggin_Megantara.pdf'; // Sesuaikan dengan path file Anda
-        downloadLink.download = 'CV_Anggin_Megantara.pdf';
+        downloadLink.href = process.env.PUBLIC_URL + '/download/CV_ATS_Anggin_Megantara.pdf'; // Sesuaikan dengan path file Anda
+        downloadLink.download = 'CV_ATS_Anggin_Megantara.pdf';
         document.body.appendChild(downloadLink);
         downloadLink.click();
         document.body.removeChild(downloadLink);

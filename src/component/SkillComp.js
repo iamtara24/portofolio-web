@@ -62,7 +62,7 @@ const SkillComp = () => {
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star"></span>
                                 </div>
                             </Row>
@@ -77,6 +77,18 @@ const SkillComp = () => {
                                 </div>
                             </Row>
                             <Row className='mb-4'>
+                                <p className='softskilltitle text-custom mb-0 col-7'>Rest API</p>
+                                <div className="star col-auto">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </Row>
+                        </div>
+                        <div className="col-md-6">
+                            <Row className='mb-4'>
                                 <p className='softskilltitle text-custom mb-0 col-7'>GIT/SVN/NPM</p>
                                 <div className="star col-auto">
                                     <span class="fa fa-star checked"></span>
@@ -86,8 +98,6 @@ const SkillComp = () => {
                                     <span class="fa fa-star"></span>
                                 </div>
                             </Row>
-                        </div>
-                        <div className="col-md-6">
                             <Row className='mb-4'>
                                 <p className='softskilltitle text-custom mb-0 col-7'>UI/UX Design</p>
                                 <div className="star col-auto">
@@ -115,7 +125,7 @@ const SkillComp = () => {
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
                                 </div>
                             </Row>
                             <Row className='mb-4'>
@@ -125,7 +135,7 @@ const SkillComp = () => {
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
                                 </div>
                             </Row>
                         </div>
